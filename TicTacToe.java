@@ -149,7 +149,7 @@ public class TicTacToe extends JFrame
     
     public void restart() {
         if (JOptionPane.showConfirmDialog(null, "Do you want to play again") == JOptionPane.YES_OPTION) {
-            game.setVisible(false);
+            game.dispose();
             game = null;
             game = new JFrame("Tic Tac Toe");
             initializeGame();
