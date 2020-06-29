@@ -8,7 +8,6 @@ public class Main {
 
             @Override
             public void run() {
-                
                 TicTacToe game = new TicTacToe();
             }
         });
